@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お役立ち情報室</title>
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Kaisei Decol", sans-serif;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .info-container {
+        display: flex;
+    }
+
+    .category-menu {
+        background-color: #e6e6fa;
+        color: #fff;
+        width: 200px;
+        height: 600px;
+        padding: 10px;
+    }
+
+    .latest-post-menu {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        background-color: #007bff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0 auto;
+    }
+
+    .category {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 5px;
+        display: inline-block;
+    }
+
+    .latest-post {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .info-box {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .items {
+        font-size: 18px;
+        text-align: left;
+        margin-top: 10px;
+    }
+    hr.line2{
+  border: none;
+  border-top: 1px dotted #999;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>お役立ち情報室</h1>
+    </header>
+
+    <main>
+        <div class="info-container">
+            <!-- サイドメニュー（カテゴリ） -->
+            <div class="category-menu">
+                <div class="category">カテゴリ</div>
+                <div class="items"><a href="#">ショートカットキー</a></div>
+                <div class="items"><a href="#">ツール</a></div>
+                <div class="items"><a href="#">その他</a></div>
+            </div>
+
+            <!-- メインメニュー（最新投稿） -->
+            <div class="latest-post-menu">
+                <div class="latest-post">ショートカットキー</div>
+                <div class="info-box">
+                    <h2>タイトル</h2>
+                    <div class="circle">A</div>
+                    <p>説明文がここに入ります。</p>
+                    <hr class="line2">
+                    <h2>タイトル</h2>
+                    <div class="circle">A</div>
+                    <p>説明文がここに入ります。</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- フッターコンテンツをここに追加 -->
+    </footer>
+</body>
+</html>
